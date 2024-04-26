@@ -1,0 +1,15 @@
+This is an intermediate file
+------------------------------------------------------------
+0 0000 SUM START 0 
+0 0000 FIRST LDA ZERO 
+0 0003 LDX =X'01' 
+0 0006 ADDR X,A 
+0 0008 RSUB 
+0 000B LTORG 
+0 000B =X'01'
+0 000C ZERO WORD 0 
+------------------------------------------------------------
+SYMBOL TABLE
+
+FIRST 0000
+ZERO 000C

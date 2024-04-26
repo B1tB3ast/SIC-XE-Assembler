@@ -1,0 +1,10 @@
+This is the listing file
+------------------------------------------------------------
+0 0000 SUM START 0 
+0 0000 FIRST LDA ZERO 032009
+0 0003 LDX =X'01' 072005
+0 0006 ADDR X,A 9010
+0 0008 RSUB 4F0000
+0 000B LTORG 
+0 000B =X'01'01
+0 000C ZERO WORD 0 000000
